@@ -1,0 +1,1 @@
+python inference_realesrgan.py -n RealESRGAN_x2plus -i inputs  --outscale 2
