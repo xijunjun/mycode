@@ -72,7 +72,7 @@ if __name__ == '__main__':
 
     checkpath=[
         # r'/disks/disk1/Workspace/mycode/algotrain/Real-ESRGAN-master/experiments/pretrained_models/RealESRGAN_x2plus.pth'
-        r'/disks/disk1/Workspace/mycode/exproot/eye_sr_debug/experiments/train_RealESRGANx2plus_400k_B12G4/models/net_g_2000.pth'
+        r'/disks/disk1/Workspace/mycode/exproot/eye_sr_debug/experiments/train_RealESRGANx2plus_400k_B12G4/models/net_g_6000.pth'
     ][0]
     loadnet = torch.load(checkpath,map_location=torch.device(device))
 
